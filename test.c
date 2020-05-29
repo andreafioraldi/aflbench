@@ -9,7 +9,7 @@ main(void) {
   #ifdef __AFL_HAVE_MANUAL_CONTROL
     __AFL_INIT();
   #endif
-    while (__AFL_LOOP(100000)) {
+    while (__AFL_LOOP(4294967296)) {
     }
 #endif
 
